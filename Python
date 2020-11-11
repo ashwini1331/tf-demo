@@ -1,9 +1,0 @@
-[10:32 AM] Nishant Kumar (INDIA - GIS IIMS)
-import pandas as pd
-from pandasgui import show
-from  pandasgui.datasets import iris
-
-column = ['BillType','bill/PayerAccountId','ProductCode','BlendedCost']
-df1= pd.read_csv(r"C:\Users\NI352686\PycharmProjects\AWS\results\WIPRO\AWS_Billing_Report.csv",usecols=column)
-show(df1, settings={​​​​'block': True}​​​​)
-
